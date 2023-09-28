@@ -10,4 +10,4 @@ COPY --from=maven /netty/target/netty-example-0.2.0-SNAPSHOT-jar-with-dependenci
 
 EXPOSE 8080
 
-CMD ["java", "-server", "-XX:+UseNUMA", "-XX:+UseParallelGC", "-Dio.netty.buffer.checkBounds=false", "-Dio.netty.buffer.checkAccessible=false", "-Dio.netty.iouring.iosqeAsyncThreshold=32000", "-jar", "app.jar"]
+CMD ["java", "-server", "-XX:+UseParallelGC", "-Dio.netty.buffer.checkBounds=false", "-Dio.netty.buffer.checkAccessible=false", "-Dio.netty.iouring.iosqeAsyncThreshold=32000", "-jar", "app.jar"]
