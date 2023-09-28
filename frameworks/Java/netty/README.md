@@ -7,7 +7,7 @@ This is the netty portion of a [benchmarking test suite](../) comparing a variet
 
 ## Versions
 
-* [Java OpenJDK 11](http://openjdk.java.net/)
+* [Java OpenJDK 17](http://openjdk.java.net/)
 * [Netty 4.1](http://netty.io/)
 * [Jackson 2.7](http://wiki.fasterxml.com/JacksonHome)
 
